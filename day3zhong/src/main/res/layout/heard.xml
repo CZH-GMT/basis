@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="张鹏"
+        android:textSize="30sp"
+        android:textColor="#0C0C0C"
+        />
+    <TextView
+        android:id="@+id/you"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="北京优思安科技有限公司"
+        android:layout_below="@id/name"
+        android:textSize="18sp"
+        />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="中级认证"
+        android:layout_below="@id/you"
+        android:textColor="#0FB2F4"
+        android:textSize="13dp"
+
+        />
+    <ImageView
+        android:layout_width="100sp"
+        android:layout_height="100dp"
+
+        android:layout_alignParentRight="true"
+        android:background="@drawable/yuanjiao"
+
+        />
+
+</RelativeLayout>

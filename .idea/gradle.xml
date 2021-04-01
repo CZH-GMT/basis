@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="PLATFORM" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/2" />
+            <option value="$PROJECT_DIR$/4" />
+            <option value="$PROJECT_DIR$/5" />
+            <option value="$PROJECT_DIR$/6" />
+            <option value="$PROJECT_DIR$/anweanfei" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/bannerbuju" />
+            <option value="$PROJECT_DIR$/card" />
+            <option value="$PROJECT_DIR$/ceshi" />
+            <option value="$PROJECT_DIR$/contentprovied" />
+            <option value="$PROJECT_DIR$/dadianhua" />
+            <option value="$PROJECT_DIR$/dadianhuayilaiban" />
+            <option value="$PROJECT_DIR$/dainhuacehua" />
+            <option value="$PROJECT_DIR$/day1wan" />
+            <option value="$PROJECT_DIR$/day2wan" />
+            <option value="$PROJECT_DIR$/day2zao" />
+            <option value="$PROJECT_DIR$/day2zhong" />
+            <option value="$PROJECT_DIR$/day3zao" />
+            <option value="$PROJECT_DIR$/day3zhong" />
+            <option value="$PROJECT_DIR$/day4" />
+            <option value="$PROJECT_DIR$/day4wan" />
+            <option value="$PROJECT_DIR$/day5wan" />
+            <option value="$PROJECT_DIR$/day5zao" />
+            <option value="$PROJECT_DIR$/day5zhongfragment" />
+            <option value="$PROJECT_DIR$/day6wan" />
+            <option value="$PROJECT_DIR$/day6zao" />
+            <option value="$PROJECT_DIR$/day6zhong" />
+            <option value="$PROJECT_DIR$/day7" />
+            <option value="$PROJECT_DIR$/day7zao" />
+            <option value="$PROJECT_DIR$/day7zao2" />
+            <option value="$PROJECT_DIR$/day7zuodeti" />
+            <option value="$PROJECT_DIR$/day7zuoye2" />
+            <option value="$PROJECT_DIR$/day8zhong" />
+            <option value="$PROJECT_DIR$/duobuju" />
+            <option value="$PROJECT_DIR$/duobujuerjiliebiao" />
+            <option value="$PROJECT_DIR$/duobujuwangluo" />
+            <option value="$PROJECT_DIR$/duquxinxi" />
+            <option value="$PROJECT_DIR$/duzhaopain" />
+            <option value="$PROJECT_DIR$/fragment" />
+            <option value="$PROJECT_DIR$/fragmenthuichuanzhi" />
+            <option value="$PROJECT_DIR$/fragmentxaiozhishi" />
+            <option value="$PROJECT_DIR$/frangmentchuanzhi" />
+            <option value="$PROJECT_DIR$/mvpwanglu" />
+            <option value="$PROJECT_DIR$/myapplication" />
+            <option value="$PROJECT_DIR$/myapplication2" />
+            <option value="$PROJECT_DIR$/okhttp" />
+            <option value="$PROJECT_DIR$/pupowindow" />
+            <option value="$PROJECT_DIR$/qizhongqianliangwan" />
+            <option value="$PROJECT_DIR$/qizhongqianyitain" />
+            <option value="$PROJECT_DIR$/servies" />
+            <option value="$PROJECT_DIR$/shujuku" />
+            <option value="$PROJECT_DIR$/sousuo" />
+            <option value="$PROJECT_DIR$/sousuo2" />
+            <option value="$PROJECT_DIR$/tablayout" />
+            <option value="$PROJECT_DIR$/tiku3" />
+            <option value="$PROJECT_DIR$/tiku8" />
+            <option value="$PROJECT_DIR$/tongzhi" />
+            <option value="$PROJECT_DIR$/wanggebanneduobuju" />
+            <option value="$PROJECT_DIR$/webview" />
+            <option value="$PROJECT_DIR$/yinyuebofangqi" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+        <option name="useQualifiedModuleNames" value="true" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
