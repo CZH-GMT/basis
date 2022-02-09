@@ -12,17 +12,48 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        flavorDimensions "versionCode"
     }
 
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+
         }
     }
+//    productFlavors {
+//        wandoujia {
+//            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "wandoujia"]
+//        }
+//
+//        xiaomi{
+//            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "xiaomi"]
+//        }
+//
+//        qq {
+//            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "qq"]
+//        }
+//
+//        _360 {
+//            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "360"]
+//        }
+
+
+
+        productFlavors {
+            wandoujia{}
+            xiaomi{}
+            qq{}
+            _360 {}
+        }
+
+        productFlavors.all {
+            flavor -> flavor.manifestPlaceholders = [UMENG_CHANNEL_VALUE: name]
+        }
+
 
 }
-
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 

@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void call(){
         Intent intent = new Intent(Intent.ACTION_CALL);
-        intent.setData(Uri.parse("tel:10086"));
+        intent.setData(Uri.parse("tel:19894641882"));
         startActivity(intent);
     }
 }

@@ -16,6 +16,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="60a2693dc9aacd3bd4d81cc3" />
+        <!-- <meta-data android:value="faqiao" android:name="UMENG_CHANNEL"/> -->
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="${UMENG_CHANNEL_VALUE}" />
     </application>
 
 </manifest>

@@ -1,6 +1,7 @@
 package com.example.okhttp;
 
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.ContextMenu;
 import android.view.MenuItem;
 import android.view.View;
@@ -10,6 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.bumptech.glide.disklrucache.DiskLruCache;
 import com.google.gson.Gson;
 import com.scwang.smartrefresh.layout.SmartRefreshLayout;
 import com.scwang.smartrefresh.layout.api.RefreshLayout;
@@ -17,6 +19,8 @@ import com.scwang.smartrefresh.layout.listener.OnRefreshLoadMoreListener;
 
 import java.io.IOException;
 import java.util.List;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 import okhttp3.Call;
 import okhttp3.Callback;
@@ -39,6 +43,8 @@ public class MainActivity extends AppCompatActivity {
     }
 private int pager=3;
     private void initData() {
+        ExecutorService executorService = Executors.newCachedThreadPool();
+        Handler handler = new Handler();
         OkHttpClient okHttpClient = new OkHttpClient();
         Request builder = new Request.Builder()
                 .url("http://gank.io/api/data/%E7%A6%8F%E5%88%A9/20/"+pager++)
@@ -56,13 +62,13 @@ private int pager=3;
                 final List<Bean.ResultsDTO> results = bean.getResults();
 
 
-                runOnUiThread(new Runnable() {
-                    @Override
-                    public void run() {
-                        myAdapter.additem(results);
-                        sml.finishLoadMore();
-                    }
-                });
+                    runOnUiThread(new Runnable() {
+                        @Override
+                        public void run() {
+                            myAdapter.additem(results);
+                            sml.finishLoadMore();
+                        }
+                    });
             }
         });
 

@@ -41,7 +41,7 @@
        android:layout_width="match_parent"
        android:layout_height="match_parent"
       android:id="@+id/nv"
-      app:headerLayout="@layout/header"
+      app:headerLayout="k@layout/header"
       app:menu="@menu/menu"
        android:layout_gravity="left"
       />

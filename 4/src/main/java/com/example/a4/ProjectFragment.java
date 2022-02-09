@@ -54,7 +54,7 @@ public class ProjectFragment extends Fragment {
         return inflate;
     }
 
-    private void initData() {
+    private void initData(){
            OkHttpClient okHttpClient = new OkHttpClient();
         Request build = new Request.Builder()
                 .url("https://www.wanandroid.com/project/tree/json")

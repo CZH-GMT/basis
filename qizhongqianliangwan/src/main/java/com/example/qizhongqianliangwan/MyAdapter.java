@@ -10,7 +10,7 @@ import java.util.List;
 
 public class MyAdapter extends RecyclerView.Adapter {
     private Context context;
-    private List<>
+//    private List<>
     @NonNull
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
